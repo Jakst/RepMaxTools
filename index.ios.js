@@ -1,3 +1,3 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
-AppRegistry.registerComponent('RepMaxTools2', () => App);
+import App from './App/App';
+AppRegistry.registerComponent('RepMaxTools', () => App);
