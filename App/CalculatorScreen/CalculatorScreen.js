@@ -150,6 +150,7 @@ class Calculator extends React.PureComponent {
                         />
 
                         <WeightInput
+                            keyboardType="numeric"
                             value={weight}
                             onChangeText={this.onWeightInputTextChanged}
                             onFocus={this.onWeightInputFocused}
