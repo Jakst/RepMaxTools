@@ -12,8 +12,8 @@ export const changeWeight = (value: number) => ({ type: CHANGE_WEIGHT, value })
 export const changeReps = (value: number) => ({ type: CHANGE_REPS, value })
 
 const initialState = {
-	weight: 0,
-	reps: 1,
+	weight: 20,
+	reps: 5,
 	increment: 2.5
 }
 
