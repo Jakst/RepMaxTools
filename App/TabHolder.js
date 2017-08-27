@@ -52,12 +52,10 @@ const toolbarActions = [
 
 const n = (a, b , c) => {
     if (c.routeName === 'Calculator') {
-        console.log('repmax')
         Analytics.logEvent('view_visited', {
             'view_name': 'Tab-RepMax'
         })
     } else if (c.routeName === 'Percentages') {
-        console.log('percent')
         Analytics.logEvent('view_visited', {
             'view_name': 'Tab-Percentages'
         })
@@ -86,7 +84,6 @@ class TabHolder extends React.PureComponent {
             }
 
             case 0: {
-                console.log('settings')
                 Analytics.logEvent('view_visited', {
                     'view_name': 'Settings'
                 })

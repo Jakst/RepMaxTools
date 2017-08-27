@@ -2,6 +2,7 @@ package com.repmaxtools;
 
 import android.app.Application;
 
+import com.facebook.react.BuildConfig;
 import com.facebook.react.ReactApplication;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.evollu.react.fa.FIRAnalyticsPackage;
