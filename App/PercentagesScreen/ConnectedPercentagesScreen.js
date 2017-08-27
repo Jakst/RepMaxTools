@@ -5,7 +5,7 @@ import { oneRepMaxSelector, percentagesSelector } from '../state/calculatorSelec
 const mapStateToProps = state => ({
 	oneRepMax: oneRepMaxSelector(state),
 	percentages: percentagesSelector(state),
-    unit: state.getIn(['units', 'weightUnit'])
+    unit: state.units.weightUnit
 })
 
 const mapDispatchToProps = dispatch => ({})

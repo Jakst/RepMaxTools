@@ -4,11 +4,11 @@ import { decreaseWeight, increaseWeight, changeWeight, changeReps } from '../sta
 import { repMaxSelector } from '../state/calculatorSelectors'
 
 const mapStateToProps = state => ({
-	weight: state.getIn(['calculator', 'weight']),
-	reps: state.getIn(['calculator', 'reps']),
-    unit: state.getIn(['units', 'weightUnit']),
+	weight: state.calculator.weight,
+	reps: state.calculator.reps,
+    unit: state.units.weightUnit,
 	repMaxList: repMaxSelector(state),
-	steppingValue: state.getIn(['calculator', 'increment'])
+	steppingValue: state.calculator.increment
 })
 
 const mapDispatchToProps = dispatch => ({

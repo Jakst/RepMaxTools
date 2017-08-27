@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect'
 
-const getInputWeight = state => state.getIn(['calculator', 'weight'])
-const getInputReps = state => state.getIn(['calculator', 'reps'])
+const getInputWeight = state => state.calculator.weight
+const getInputReps = state => state.calculator.reps
 
 export const repMaxSelector = createSelector([getInputWeight, getInputReps], (weight, reps) => {
     const values = Array.apply(null, { length: 20 })

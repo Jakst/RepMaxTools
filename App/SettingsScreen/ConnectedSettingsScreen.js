@@ -3,8 +3,8 @@ import SettingsScreen from './SettingsScreen'
 import { setUnit } from '../state/unitsReducer'
 
 const mapStateToProps = state => ({
-    unit: state.getIn(['units', 'weightUnit']),
-    increment: state.getIn(['calculator', 'increment'])
+    unit: state.units.weightUnit,
+    increment: state.calculator.increment
 })
 
 const mapDispatchToProps = dispatch => ({
