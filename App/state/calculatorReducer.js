@@ -63,14 +63,14 @@ export default (state = { ...initialState }, action) => {
 		case SET_UNIT: {
 			switch(action.unit) {
 				case units.METRIC:
-					return state.increment === 5
+					return state.increment === 2.5
 						? state
 						: { ...state, increment: 2.5 }
 
 				case units.IMPERIAL:
-					return state.increment === 2.5
+					return state.increment === 5
 						? state
-						: { ...state, increment: 6 }
+						: { ...state, increment: 5 }
 			}
 
 			break
