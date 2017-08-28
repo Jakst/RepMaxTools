@@ -6,6 +6,6 @@ Rep Max Tools is the fastest and easiest one rep max calculator for your squat, 
 
 All calculations in the app are based on well known one rep max formulas (Epley and Brzycki).
 
-Play Store link: [https://play.google.com/store/apps/details?id=com.jakst.repmaxtools]() 
+Play Store link: [https://play.google.com/store/apps/details?id=com.jakst.repmaxtools](https://play.google.com/store/apps/details?id=com.jakst.repmaxtools) 
 
 The project is built on React native with best practices in mind.
