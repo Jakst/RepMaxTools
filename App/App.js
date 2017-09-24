@@ -14,6 +14,7 @@ import SettingsScreen from './SettingsScreen'
 import TabHolder from './TabHolder'
 import styled from 'styled-components/native'
 import colors from './colors'
+import Controls from './Controls'
 
 // $FlowFixMe
 console.ignoredYellowBox = [
@@ -40,6 +41,15 @@ const Navigator = StackNavigator(stackSetup, stackOptions)
 const App = () => (
 	<Wrapper>
 		<StatusBar backgroundColor={colors.PRIMARY_DARK} barStyle="light-content" />
+		<View style={{
+			backgroundColor: 'white',
+			height: 10
+		}} />
+		<Controls />
+		<View style={{
+			backgroundColor: 'white',
+			height: 10
+		}} />
 		<Navigator />
 	</Wrapper>
 )
